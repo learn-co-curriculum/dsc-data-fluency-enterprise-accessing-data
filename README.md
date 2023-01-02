@@ -47,42 +47,42 @@ Databases are used in a wide variety of applications, including online shopping,
 
 Databases are often stored in larger systems known as data warehouses and data lakes. A data warehouse and a data lake are both used for storing large amounts of data, but they are designed for different purposes and have some important differences.
 
-A data warehouse is a system used for storing and analyzing data from a variety of sources. It is designed to support fast query and analysis of the data, and is optimized for this purpose. Data warehouses are typically built using structured data and are used to support business intelligence and reporting needs. Some examples of data warehouses include:
-  - Amazon Redshift: A cloud-based data warehouse service offered by Amazon Web Services (AWS).
-  - Teradata: A data warehousing and analytics company that provides a range of data warehousing products and services.
-  - Snowflake: A cloud-based data warehouse service that is designed to make it easy to analyze data using SQL and to integrate with a variety of other tools and services.
-  - Oracle Exadata: A data warehousing and database server product offered by Oracle.
-  - IBM Netezza: A data warehousing appliance offered by IBM.
+A data warehouse is a system used for storing and analyzing data from a variety of sources. It is designed to support fast query and analysis of the data, and is optimized for this purpose. Data warehouses are typically built using structured data and are used to support business intelligence and reporting needs. Some examples of data warehouses include:  
+  - Amazon Redshift: A cloud-based data warehouse service offered by Amazon Web Services (AWS).  
+  - Teradata: A data warehousing and analytics company that provides a range of data warehousing products and services.  
+  - Snowflake: A cloud-based data warehouse service that is designed to make it easy to analyze data using SQL and to integrate with a variety of other tools and services.  
+  - Oracle Exadata: A data warehousing and database server product offered by Oracle.  
+  - IBM Netezza: A data warehousing appliance offered by IBM.  
   
-A data lake is a storage repository that allows you to store large amounts of structured, semi-structured, and unstructured data at any scale. Data lakes are designed to be flexible and scalable, and can store a wide variety of data types. Data lakes are often used as a central repository for storing raw data that can be transformed and processed later, and are often used in big data and analytics applications. Some examples of data lakes include:
-  - Amazon S3: A cloud-based data lake service offered by Amazon Web Services (AWS).
-  - Hadoop Distributed File System (HDFS): The primary storage system used in the Apache Hadoop big data processing framework.
-  - Google Cloud Storage: A cloud-based data lake service offered by Google Cloud.
-  - Azure Data Lake: A data lake service offered by Microsoft Azure.
-  - IBM Cloud Object Storage: A data lake service offered by IBM Cloud.
+A data lake is a storage repository that allows you to store large amounts of structured, semi-structured, and unstructured data at any scale. Data lakes are designed to be flexible and scalable, and can store a wide variety of data types. Data lakes are often used as a central repository for storing raw data that can be transformed and processed later, and are often used in big data and analytics applications. Some examples of data lakes include:  
+  - Amazon S3: A cloud-based data lake service offered by Amazon Web Services (AWS).  
+  - Hadoop Distributed File System (HDFS): The primary storage system used in the Apache Hadoop big data processing framework.  
+  - Google Cloud Storage: A cloud-based data lake service offered by Google Cloud.  
+  - Azure Data Lake: A data lake service offered by Microsoft Azure.  
+  - IBM Cloud Object Storage: A data lake service offered by IBM Cloud.  
 
 Many of the examples listed above for both data warehouses and data lakes are examples of data storage on the cloud. This refers to the data not being stored locally on a computer in your business, but rather on a remote server to be accessed over the internet.
 
 To keep track of moving data around from one database to another in a data warehouse or data lake, a data pipeline is often used. It typically involves extracting data from a variety of sources, transforming it to fit the needs of different systems, and then loading it into those systems for further analysis or use. In addition to moving data across databases, data pipelines can be built using a variety of tools and technologies, and are used in a wide range of applications, such as real-time data processing and machine learning. They help organizations to efficiently and reliably move large amounts of data between systems, and to ensure that data is properly transformed and integrated for use by various applications.
 
-To extract data from a database, the process of retrieval is often done and this is called to “query” the data. The standard language for doing this querying is called Structured Query Language (SQL). SQL is the standard language for interacting with relational databases, and is used to perform tasks such as:
-  - Inserting, updating, and deleting records
-  - Creating, modifying, and deleting tables and other database objects
-  - Retrieving data from databases
-  - Modifying the data in databases
-  - Controlling access to the database
-  - Setting permissions on tables and procedures
+To extract data from a database, the process of retrieval is often done and this is called to “query” the data. The standard language for doing this querying is called Structured Query Language (SQL). SQL is the standard language for interacting with relational databases, and is used to perform tasks such as:  
+  - Inserting, updating, and deleting records  
+  - Creating, modifying, and deleting tables and other database objects 
+  - Retrieving data from databases  
+  - Modifying the data in databases  
+  - Controlling access to the database  
+  - Setting permissions on tables and procedures  
 
 SQL is a powerful language for working with data, and is used in a wide variety of applications, including web applications, data analysis, and business operations.
 
 ### Main categories of data collection
 
-It’s also important to think about processes for which data is also collected to be stored in these databases. There are five main categories of data collection:
-  - Experimental
-  - Observational
-  - Simulation
-  - Derived
-  - Reference
+It’s also important to think about processes for which data is also collected to be stored in these databases. There are five main categories of data collection:  
+  - Experimental  
+  - Observational  
+  - Simulation  
+  - Derived  
+  - Reference  
   
 Experimental data refers to data from lab equipment and under controlled conditions. This can be reproducible if procedures are carefully documented, but this can be expensive to replicate.
 
@@ -96,12 +96,4 @@ Reference data is just that. It means data that is used for looking up facts. Th
 
 A particular data table in a database could have data collected in a variety of ways, but it’s important to always try to identify where and how a particular data point was gathered.
 
-## Assessment/learning check questions
 
-1. Which of the main categories of data management do you and your team(s) work with most often?
-2. Where does your data live?
-3. How is data shared with you/across your team(s)? Dashboards, raw, summaries, reports, something else?
-4. Who might have relevant data for you?  
-  a. How do you request access to this data?   
-  b. What steps are needed to get it?  
-5. How is your data archived for long term storage? How often is that data archived?
