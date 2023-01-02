@@ -4,18 +4,23 @@ Data exists in a variety of different formats and styles. There is the classic s
 
 ## Different data formats
 
+![Blank spreadsheet](images/spreadsheet.png)
+
 When you think about the word "data" does your mind go to a table of numbers? Or maybe you think about a particular graphic or data visualization that you saw recently online or in a magazine?
 
 There are many other types of data that have begun to be analyzed with digital storage increasing dramatically over the past few decades. For example, images can be broken down into pixels with each pixel corresponding to a color value. Characteristics and trends in an image can be examined with data analysis and techniques such as image classification using a computer. For example, one could try to have a computer identify if an image is a “hyena” or a “dog.”
 
 Text is another example of data that has become more prevalent with the popularity of social media, email, blog posts, and media organizations moving more and more content online. Entire books have also been analyzed using text mining techniques to examine how the sentiment of text has changed throughout the book. Sentiment analysis can be used to determine the attitude of characters in the text and how that changes over time. This is harder to do without the use of a computer often including careful note-taking manually and lacking precision and details. This can be done in a few seconds with powerful machine learning techniques on a computer.
 
+![Human genome idiogram](images/genome.png)
 
 Further analysis has become common with huge amounts of data such as audio or video files. Additionally with the mapping of the human genome, statistical analysis and tracking changes across the genes of multiple people has helped the medical and biological professions in ways once thought to not be possible. The intervention of data collection using computers has made this a burgeoning new field.
 
 Data can also come in the format of spatial data. From a business perspective, these kinds of data can help one to identify the best place to open, for example, a restaurant given the other restaurants and customer trends in a given area.
 
 ## Sources of data
+
+![Census Records on tablet](images/census.jpg)
 
 Publicly available data is often called “open data.” This can refer to data provided by a local, state, or national government, such as census or economic data. Social media also provides a way to interact with data that is available publicly. For example, one could look to see how a hashtag has trended over time with something like the Twitter API. An API is an application programming interface. It is a set of rules that gives how two different software programs should interact with each other. A text analyst could use the Twitter API programmatically to pull tweets related to the World Cup, for example, by tracking #worldcup over a particular time period.
 
@@ -25,9 +30,13 @@ Not all data is available publicly though. Data inside organizations may include
 
 Data can be categorized, sometimes roughly, into whether data is structured or unstructured and whether data is numeric or categorical.
 
+![Structured data](images/structured.png)
+
 Structured data is data stored in rows and columns. This is often the type of data shown in tables or in spreadsheets. It is organized in a predictable and standardized way. It is typically stored in spreadsheets or databases. This allows it to be easy to search, sort, analyze, and filter based on characteristics of a particular column or many columns. Examples of structured data are product inventory at a store, financial transactions at a bank, and customer records at a pharmacy.
 
 Unstructured data is data that does not have a pre-defined structure. It does not fit nicely into a database and is frequently unorganized. This lack of structure makes it more difficult to search and analyze. Examples of unstructured data include a dump of emails over a time period at a company, social media posts in a given day, and videos on a site like YouTube.
+
+![Data types](images/data-types.png)
 
 The next categorization of data is classifying the data itself. Numeric data refers to quantities of a particular measurement. Categorical data refers to data that can be split into groups.
 
@@ -39,6 +48,8 @@ Determining what type of data is stored can help one to determine which type of 
 
 ### Database basics
 
+![Database](images/database.png)
+
 A database is an organized collection of data stored and accessed electronically. Databases make it easy to search, select, and sort through large amounts of data quickly and efficiently. There are many different types of databases, including relational databases, which store data in tables with rows and columns, and NoSQL databases, which store data in a more flexible format.
 
 Relational databases are well-suited for structured data, such as customer information or financial records, while NoSQL databases are better for unstructured data, such as social media posts or log files. Database management systems (DBMS) are used to create, maintain, and interact with databases. Some examples of DBMSs include MySQL, Oracle, and Microsoft SQL Server.
@@ -47,14 +58,18 @@ Databases are used in a wide variety of applications, including online shopping,
 
 Databases are often stored in larger systems known as data warehouses and data lakes. A data warehouse and a data lake are both used for storing large amounts of data, but they are designed for different purposes and have some important differences.
 
+![Warehouse](images/warehouse.jpg)
+
 A data warehouse is a system used for storing and analyzing data from a variety of sources. It is designed to support fast query and analysis of the data, and is optimized for this purpose. Data warehouses are typically built using structured data and are used to support business intelligence and reporting needs. Some examples of data warehouses include:  
 
   - Amazon Redshift: A cloud-based data warehouse service offered by Amazon Web Services (AWS).  
   - Teradata: A data warehousing and analytics company that provides a range of data warehousing products and services.  
   - Snowflake: A cloud-based data warehouse service that is designed to make it easy to analyze data using SQL and to integrate with a variety of other tools and services.  
   - Oracle Exadata: A data warehousing and database server product offered by Oracle.  
-  - IBM Netezza: A data warehousing appliance offered by IBM.  
-  
+  - IBM Netezza: A data warehousing appliance offered by IBM.    
+
+![Lake](images/lake.jpg)
+
 A data lake is a storage repository that allows you to store large amounts of structured, semi-structured, and unstructured data at any scale. Data lakes are designed to be flexible and scalable, and can store a wide variety of data types. Data lakes are often used as a central repository for storing raw data that can be transformed and processed later, and are often used in big data and analytics applications. Some examples of data lakes include:  
 
   - Amazon S3: A cloud-based data lake service offered by Amazon Web Services (AWS).  
@@ -66,6 +81,8 @@ A data lake is a storage repository that allows you to store large amounts of st
 Many of the examples listed above for both data warehouses and data lakes are examples of data storage on the cloud. This refers to the data not being stored locally on a computer in your business, but rather on a remote server to be accessed over the internet.
 
 To keep track of moving data around from one database to another in a data warehouse or data lake, a data pipeline is often used. It typically involves extracting data from a variety of sources, transforming it to fit the needs of different systems, and then loading it into those systems for further analysis or use. In addition to moving data across databases, data pipelines can be built using a variety of tools and technologies, and are used in a wide range of applications, such as real-time data processing and machine learning. They help organizations to efficiently and reliably move large amounts of data between systems, and to ensure that data is properly transformed and integrated for use by various applications.
+
+![SQL](images/sql.png)
 
 To extract data from a database, the process of retrieval is often done and this is called to “query” the data. The standard language for doing this querying is called Structured Query Language (SQL). SQL is the standard language for interacting with relational databases, and is used to perform tasks such as:  
 
