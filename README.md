@@ -1,6 +1,6 @@
 # Data Fluency - Accessing Data
 
-Data exists in a variety of different formats and styles. There is the classic structured data like a spreadsheet or a database that you and/or your team might have use. But more and more data known as unstructured data, such as multimedia sources of audio, image, or video are being built into machine learning models. It’s important to determine how your data might be stored, and then we’ll get into understanding what data looks like to you and your teams.
+Data exists in a variety of different formats and styles. There is the classic structured data like a spreadsheet or a database that you and/or your team might have used. But more and more data known as unstructured data, such as multimedia sources of audio, image, or video are being built into machine learning models. It’s important to determine how your data might be stored, and then we’ll get into understanding what data looks like to you and your teams.
 
 ## Different data formats
 
