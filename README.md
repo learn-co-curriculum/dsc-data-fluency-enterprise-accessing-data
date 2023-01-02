@@ -4,7 +4,7 @@ Data exists in a variety of different formats and styles. There is the classic s
 
 ## Different data formats
 
-When you think about the word "data"" does your mind go to a table of numbers? Or maybe you think about a particular graphic or data visualization that you saw recently online or in a magazine?
+When you think about the word "data" does your mind go to a table of numbers? Or maybe you think about a particular graphic or data visualization that you saw recently online or in a magazine?
 
 There are many other types of data that have begun to be analyzed with digital storage increasing dramatically over the past few decades. For example, images can be broken down into pixels with each pixel corresponding to a color value. Characteristics and trends in an image can be examined with data analysis and techniques such as image classification using a computer. For example, one could try to have a computer identify if an image is a “hyena” or a “dog.”
 
@@ -49,11 +49,11 @@ Databases are often stored in larger systems known as data warehouses and data l
 
 A data warehouse is a system used for storing and analyzing data from a variety of sources. It is designed to support fast query and analysis of the data, and is optimized for this purpose. Data warehouses are typically built using structured data and are used to support business intelligence and reporting needs. Some examples of data warehouses include:  
 
-  - Amazon Redshift: A cloud-based data warehouse service offered by Amazon Web Services (AWS).  
-  - Teradata: A data warehousing and analytics company that provides a range of data warehousing products and services.  
-  - Snowflake: A cloud-based data warehouse service that is designed to make it easy to analyze data using SQL and to integrate with a variety of other tools and services.  
-  - Oracle Exadata: A data warehousing and database server product offered by Oracle.  
-  - IBM Netezza: A data warehousing appliance offered by IBM.  
+    - Amazon Redshift: A cloud-based data warehouse service offered by Amazon Web Services (AWS).  
+    - Teradata: A data warehousing and analytics company that provides a range of data warehousing products and services.  
+    - Snowflake: A cloud-based data warehouse service that is designed to make it easy to analyze data using SQL and to integrate with a variety of other tools and services.  
+    - Oracle Exadata: A data warehousing and database server product offered by Oracle.  
+    - IBM Netezza: A data warehousing appliance offered by IBM.  
   
 A data lake is a storage repository that allows you to store large amounts of structured, semi-structured, and unstructured data at any scale. Data lakes are designed to be flexible and scalable, and can store a wide variety of data types. Data lakes are often used as a central repository for storing raw data that can be transformed and processed later, and are often used in big data and analytics applications. Some examples of data lakes include:  
 
