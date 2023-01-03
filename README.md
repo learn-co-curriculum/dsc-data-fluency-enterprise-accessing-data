@@ -1,6 +1,6 @@
 # Data Fluency - Accessing Data
 
-Data exists in a variety of different formats and styles. There is the classic structured data like a spreadsheet or a database that you and/or your team might have used. But more and more data known as unstructured data, such as multimedia sources of audio, image, or video are being built into machine learning models. It’s important to determine how your data might be stored, and then we’ll get into understanding what data looks like to you and your teams.
+Data exists in a variety of different formats and styles. There is the classic structured data like a spreadsheet or a database that you and/or your team might have used. But more and more data known as unstructured data, such as multimedia sources of audio, image, or video are being built into machine learning models. It’s important to determine how your data might be stored, and then you will get into understanding what data looks like to you and your teams.
 
 ## Different data formats
 
@@ -14,7 +14,7 @@ Text is another example of data that has become more prevalent with the populari
 
 ![Human genome idiogram](https://github.com/learn-co-curriculum/dsc-data-fluency-enterprise-accessing-data/blob/main/images/genome.png?raw=true)
 
-Further analysis has become common with huge amounts of data such as audio or video files. Additionally with the mapping of the human genome, statistical analysis and tracking changes across the genes of multiple people has helped the medical and biological professions in ways once thought to not be possible. The intervention of data collection using computers has made this a burgeoning new field.
+Further analysis has become common with huge amounts of data such as audio or video files. Additionally with the mapping of the human genome, statistical analysis and tracking changes across the genes of multiple people has helped the medical and biological professions in ways once thought to not be possible. Data collection and analysis using computers has made this a burgeoning new field.
 
 Data can also come in the format of spatial data. From a business perspective, these kinds of data can help one to identify the best place to open, for example, a restaurant given the other restaurants and customer trends in a given area.
 
@@ -32,7 +32,7 @@ Data can be categorized, sometimes roughly, into whether data is structured or u
 
 ![Structured data](https://github.com/learn-co-curriculum/dsc-data-fluency-enterprise-accessing-data/blob/main/images/structured.png?raw=true)
 
-Structured data is data stored in rows and columns. This is often the type of data shown in tables or in spreadsheets. It is organized in a predictable and standardized way. It is typically stored in spreadsheets or databases. This allows it to be easy to search, sort, analyze, and filter based on characteristics of a particular column or many columns. Examples of structured data are product inventory at a store, financial transactions at a bank, and customer records at a pharmacy.
+Structured data is data stored in rows and columns. This is often the type of data shown in tables or in spreadsheets. It is organized in a predictable and standardized way. It is typically stored in spreadsheets or databases. This makes it easy to search, sort, analyze, and filter based on characteristics of a particular column or many columns. Examples of structured data are product inventory at a store, financial transactions at a bank, and customer records at a pharmacy.
 
 Unstructured data is data that does not have a pre-defined structure. It does not fit nicely into a database and is frequently unorganized. This lack of structure makes it more difficult to search and analyze. Examples of unstructured data include a dump of emails over a time period at a company, social media posts in a given day, and videos on a site like YouTube.
 
